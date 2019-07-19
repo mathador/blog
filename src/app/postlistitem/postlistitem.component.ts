@@ -19,7 +19,7 @@ export class PostListItemComponent implements OnInit {
 
 
   onVote(valeur: number) {
-    this.loveIts = this.loveIts + valeur;
+    this.loveIts += valeur;
   }
 
 
